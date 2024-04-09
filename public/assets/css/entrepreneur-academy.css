@@ -1,0 +1,233 @@
+:root {
+  /**
+  @font family declaration
+  */
+  --tp-ff-body: 'Roboto', sans-serif;
+  --tp-ff-heading: 'Roboto', sans-serif;
+  --tp-ff-p: 'Roboto', sans-serif;
+  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  /**
+  @color declaration
+  */
+  --tp-common-white: #ffffff;
+  --tp-common-black: #031220;
+  --tp-common-black-2: #120101;
+  --tp-common-black-3: #0C140F;
+  --tp-common-black-4: #000000;
+  --tp-common-black-5: #0e1133;
+  --tp-common-green: #26C089;
+  --tp-common-green-2: #3E8454;
+  --tp-common-green-3: #27AA4D;
+  --tp-common-green-4: #20AD96;
+  --tp-common-blue: #4356FF;
+  --tp-common-blue-2: #4270FF;
+  --tp-common-blue-3: #3C66ED;
+  --tp-common-blue-4: #3083FF;
+  --tp-common-cream: #FFF1E0;
+  --tp-common-pink: #FF6470;
+  --tp-common-pink-2: #FC4C56;
+  --tp-common-orange: #F37F43;
+  --tp-common-orange-2: #EE6002;
+  --tp-common-orange-3: #FF9F4B;
+  --tp-common-purple: #E33CFF;
+  --tp-common-purple-2: #E64DFF;
+  --tp-common-yellow: #F5B455;
+  --tp-common-yellow-2: #F47F42;
+  --tp-common-yellow-3: #F4930E;
+  --tp-common-yellow-4: #FFAA2C;
+  --tp-common-yellow-5: #FF8D00;
+  --tp-common-violet: #6151FB;
+  --tp-common-violet-2: #A794C8;
+  --tp-header-primary: #031220;
+  --tp-header-2: #120101;
+  --tp-grey-1: #F1F1F1;
+  --tp-grey-2: #F5F6F8;
+  --tp-grey-3: #F8F8F8;
+  --tp-grey-4: #F7F7F7;
+  --tp-grey-5: #F5F5F5;
+  --tp-grey-6: #DCDCDC;
+  --tp-grey-7: #F9F9F9;
+  --tp-grey-8: #F4FBF9;
+  --tp-grey-9: #F0F8F7;
+  --tp-grey-10: #F3F3F3;
+  --tp-text-body: #49535B;
+  --tp-text-1: #49535B;
+  --tp-text-2: #555C63;
+  --tp-text-3: #777A7C;
+  --tp-text-4: #4B535A;
+  --tp-text-5: #4A545C;
+  --tp-text-6: #6F7377;
+  --tp-text-7: #6B7882;
+  --tp-text-8: #788086;
+  --tp-text-9: #6B737A;
+  --tp-text-10: #828282;
+  --tp-text-11: #5F6160;
+  --tp-text-12: #565958;
+  --tp-text-13: #868D94;
+  --tp-text-14: #56595C;
+  --tp-text-15: #a1a2ab;
+  --tp-theme-1: #3D6CE7;
+  --tp-theme-2: #258E46;
+  --tp-theme-3: #007A70;
+  --tp-border-1: #dedede;
+  /**
+  @font weight declaration
+  */
+  --tp-fw-normal: normal;
+  --tp-fw-elight: 200;
+  --tp-fw-light: 300;
+  --tp-fw-regular: 400;
+  --tp-fw-medium: 500;
+  --tp-fw-sbold: 600;
+  --tp-fw-bold: 700;
+  --tp-fw-ebold: 800;
+  --tp-fw-black: 900;
+  /**
+  @font size declaration
+  */
+  --tp-fz-body: 14px;
+  --tp-fz-p: 14px;
+  --tp-fz-h1: 40px;
+  --tp-fz-h2: 36px;
+  --tp-fz-h3: 24px;
+  --tp-fz-h4: 20px;
+  --tp-fz-h5: 16px;
+  --tp-fz-h6: 14px;
+}
+
+/*hero secton start */
+.bg-img-entrepreneur-academy {
+  display: flex;
+  height: 30vh;
+  background: url(../imgs/page/online-courses/audience.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.bg-img-entrepreneur-academy h2,
+.bg-img-entrepreneur-academy p {
+  z-index: 2;
+  position: relative;
+  color: white;
+  padding-left: 25px;
+}
+
+.bg-img-entrepreneur-academy h2,
+.bg-img-entrepreneur-academy p {
+  border-left: 10px solid #83cbff;
+  padding-bottom: 2px;
+}
+
+.bg-img-entrepreneur-academy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background: #05264e;
+}
+
+.sub-heading-text-enacdemy {
+  font-size: 24px;
+  max-width: 1035px;
+  line-height: 30px;
+}
+
+.color-text-paragraph-2 {
+  margin-bottom: 0;
+}
+
+.color-text-paragraph {
+  color: #66789C;
+  font-size: 24px;
+  max-width: 780px;
+  line-height: 30px;
+}
+
+.banner-hero1 .block-banner1 .online-course-form-find {
+  background: #ffffff;
+  width: 1100px;
+  padding: 8px 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solidcolor(button-discover);
+  border-radius: 8px;
+}
+
+.banner-hero1 .block-banner1 .online-course-form-find form {
+  width: 100%;
+  display: flex;
+}
+
+.online-course-form-find form .online-course-input-top-five {
+  height: 50px;
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 250%;
+  border: none;
+}
+
+.btn-online-course-search {
+  background-color: #3AAB67;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  width: 32%;
+  height: auto;
+  font-size: 16px;
+  margin-left: 12px;
+  padding: 8px;
+}
+.btn-online-course-search:hover {
+  transform: translateY(-2px);
+  background-color: #3AAB67;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 10px 0px 15px 0px !important;
+    margin: -9% !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .block-banner1 {
+    width: auto;
+  }
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 20px;
+    width: 121%;
+  }
+  .banner-hero1 .block-banner1 .online-course-form-find form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner-hero1 .block-banner1 .online-course-form-find form .online-course-input-top-five {
+    margin-left: 1px;
+    margin-top: 15px !important;
+  }
+  .btn-online-course-search {
+    background-color: #3AAB67;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  .btn-online-course-search:hover {
+    transform: translateY(-2px);
+    background-color: #3AAB67;
+    transition: 0.2s;
+  }
+  .btn-online-course-search:first-of-type {
+    margin-top: 20px;
+  }
+  .btn-online-course-search:not(:first-of-type) {
+    margin-top: 10px;
+  }
+}
+/*hero secton end *//*# sourceMappingURL=entrepreneur-academy.css.map */

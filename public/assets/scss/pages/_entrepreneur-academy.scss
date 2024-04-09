@@ -1,0 +1,190 @@
+
+
+
+$colors:(
+    primary:#05264e,
+    hero:#83cbff,
+    button-discover:#e0e6f6,
+
+);
+
+@function color($color-name){
+    @return map-get($colors,$color-name)
+}
+
+/*hero secton start */
+
+
+.bg-img-entrepreneur-academy{
+    display: flex;
+    height: 30vh;
+    background: url(../imgs/page/industry-intelligence/Hero.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-img-entrepreneur-academy{
+    h2,
+    p {
+        z-index: 2;
+        position: relative;
+        color: white;
+        padding-left: 25px;
+    }
+}
+
+
+.bg-img-entrepreneur-academy {
+    h2,
+    p {
+        border-left: 10px solid color(hero);
+        padding-bottom: 2px;
+    }
+}
+
+
+.bg-img-entrepreneur-academy{
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        background: color(primary); 
+    }
+}
+.sub-heading-text-enacdemy{
+    font-size: 24px;
+    max-width: 1035px;
+    line-height: 30px;
+}
+
+.color-text-paragraph-2 {
+    margin-bottom: 0;
+}
+.color-text-paragraph{
+    color: #66789C;
+    font-size: 24px;
+    max-width: 780px;
+    line-height: 30px;
+}
+
+
+
+.banner-hero1 {
+    .block-banner1 {
+        .online-course-form-find {
+            background: #ffffff;
+            width: 1100px;
+            padding: 8px 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border: 1px solidcolor(button-discover);
+            border-radius: 8px;
+        }
+    }
+}
+
+.banner-hero1 {
+    .block-banner1 {
+        .online-course-form-find form {
+            width: 100%;
+            display: flex;
+        }
+    }
+}
+
+
+.online-course-form-find form {
+    .online-course-input-top-five {
+        height: 50px;
+        box-shadow: none;
+        padding-left: 20px;
+        font-size: 16px;
+        width: 250%;
+        border: none;
+    }
+}
+
+
+.btn-online-course-search {
+    background-color:#3AAB67;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 32%;
+    height: auto;
+    font-size: 16px;
+    margin-left: 12px;
+    padding: 8px;
+
+    &:hover {
+        transform: translateY(-2px);
+        background-color:#3AAB67;
+        transition: 0.2s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner-hero1 {
+        .block-banner1 {
+            .online-course-form-find {
+                padding: 10px 0px 15px 0px !important;
+                margin: -9% !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .block-banner1 {
+        width: auto;
+    }
+
+    .banner-hero1 {
+        .block-banner1 {
+            .online-course-form-find {
+                padding: 20px;
+                width: 121%;
+            }
+            .online-course-form-find form {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .online-course-form-find form  .online-course-input-top-five {
+                margin-left: 1px;
+                margin-top: 15px !important;
+            }
+        }
+    }
+    .btn-online-course-search {
+        background-color:#3AAB67;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        margin-left: 12px;
+    
+        &:hover {
+            transform: translateY(-2px);
+            background-color:#3AAB67;
+            transition: 0.2s;
+        }
+        &:first-of-type {
+            margin-top: 20px;
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 10px;
+        }
+    } 
+
+}
+/*hero secton end */
+
