@@ -46,9 +46,9 @@ const DiscoverButton = () => {
                 <div className="container">
                     <div className="flex-container">
                         <div className="share-icon-container">
-                            <button className="btn-share-search">
+          
                                 <IoShareSocialOutline className="share-icon" />
-                            </button>
+                
                         </div>
                         <div className="text-center">
                             <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>

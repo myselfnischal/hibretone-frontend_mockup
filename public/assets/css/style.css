@@ -9464,7 +9464,6 @@ ul li:last-child .card-list-4 {
   max-width: 780px;
   line-height: 30px;
 }
-
 /* Hero Section End */
 /* Background Blue random Design */
 .background-random-industry-intelligence {
@@ -9497,7 +9496,7 @@ ul li:last-child .card-list-4 {
 /* Background Blue random Design End */
 /*Media Query */
 @media (max-width: 992px) {
-  .bg-img-laptop h2 {
+  h2 {
     font-size: 40px !important;
   }
   .color-text-paragraph-2 {
@@ -9505,7 +9504,7 @@ ul li:last-child .card-list-4 {
   }
 }
 @media (max-width: 768px) {
- .bg-img-laptop h2 {
+  h2 {
     font-size: 30px !important;
     margin-bottom: 10px !important;
   }
@@ -9515,20 +9514,12 @@ ul li:last-child .card-list-4 {
   }
 }
 @media (max-width: 768px) and (max-width: 455px) {
-  .bg-img-laptop h2 {
+  h2 {
     font-size: 26px !important;
   }
   .color-text-paragraph-2 {
     font-size: 14px !important;
-  }
-}
-@media (max-width: 415px) {
-  .bg-img-laptop h2 {
-    font-size: 26px !important;
-    line-height: 23px !important;
-  }
-  .color-text-paragraph{
-    font-size: 12px !important;
+    line-height: 20px !important;
   }
 }
 /*Media Query  End*/

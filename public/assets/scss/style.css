@@ -8964,18 +8964,21 @@ ul li:last-child .card-list-4 {
   background-size: cover;
 }
 
-.bg-img-online-course h2,
-.bg-img-online-course p {
+.bg-img-online-course h2, .bg-img-online-course p {
   z-index: 2;
   position: relative;
   color: white;
   padding-left: 25px;
 }
 
-.bg-img-online-course h2,
+.bg-img-online-course h2 {
+  border-left: 10px solid #83cbff;
+  padding-bottom: 8px;
+  padding-top: 5px;
+}
+
 .bg-img-online-course p {
   border-left: 10px solid #83cbff;
-  padding-bottom: 2px;
 }
 
 .bg-img-online-course::before {
@@ -9004,26 +9007,47 @@ ul li:last-child .card-list-4 {
     font-size: 40px !important;
     margin-bottom: 10px !important;
   }
-  p {
+  .online-course-text {
     font-size: 18px !important;
     line-height: 20px !important;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 653px) {
   .bg-img-online-course h2 {
-    font-size: 26px !important;
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: -10px !important;
   }
-  p {
-    font-size: 14px !important;
+  .online-course-text {
+    font-size: 18px !important;
+    margin-left: -10px !important;
+  }
+}
+@media (max-width: 580px) {
+  .bg-img-online-course h2 {
+    font-size: 36px !important;
+    margin-left: -67px !important;
+  }
+  .online-course-text {
+    margin-left: -67px !important;
   }
 }
 @media (max-width: 455px) {
   .bg-img-online-course h2 {
-    font-size: 24px !important;
-    line-height: 23px !important;
+    font-size: 29px !important;
   }
-  p {
-    font-size: 14px !important;
+  .online-course-text {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 400px) {
+  .bg-img-online-course h2 {
+    font-size: 29px !important;
+    line-height: 23px !important;
+    margin-left: -65px !important;
+  }
+  .online-course-text {
+    margin-left: -65px !important;
   }
 }
 /*Media Query End*/
@@ -9280,7 +9304,6 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 450px) {
   .article-description-online-course {
     font: 500 11px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 50px;
   }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -9987,12 +10010,12 @@ ul li:last-child .card-list-4 {
 
 .bg-img-laptop h2 {
   border-left: 10px solid #83cbff;
-  padding-bottom: 2px;
+  padding-bottom: 8px;
+  padding-top: 5px;
 }
 
 .bg-img-laptop p {
   border-left: 10px solid #83cbff;
-  padding-bottom: 2px;
 }
 
 .bg-img-laptop::before {
