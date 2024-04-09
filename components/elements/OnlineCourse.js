@@ -14,7 +14,7 @@ const OnlineCourse = () => {
                         <div className="row">
                             <div className="col">
                                 <h2 style={{ marginBottom: '20px', fontSize: '60px' }}>6000+ Free Online Courses</h2>
-                                <p style={{ fontSize: '24px', maxWidth: '780px', lineHeight: '30px' }}>We believe <span className="color-blue">empowering yourself & those around you</span>, should be rewarding, free and available whenever you want to learn</p>
+                                <p className="online-course-text"  style={{ fontSize: '24px', maxWidth: '780px', lineHeight: '30px' }}>We believe <span className="color-blue">empowering yourself & those around you</span>, should be rewarding, free and available whenever you want to learn</p>
                             </div>
                         </div>
                     </div>
