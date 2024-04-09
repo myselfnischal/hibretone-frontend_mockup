@@ -17,26 +17,21 @@ $colors:(
     background-size: cover;
 }
 
-.bg-img-online-course{
-    h2,
-    p {
-        z-index: 2;
-        position: relative;
-        color: white;
-        padding-left: 25px;
-    }
+.bg-img-online-course h2, .bg-img-online-course p {
+  z-index: 2;
+  position: relative;
+  color: white;
+  padding-left: 25px;
+}
+.bg-img-online-course h2 {
+  border-left: 10px solid #83cbff;
+  padding-bottom: 8px;
+  padding-top: 5px;
 }
 
-
-.bg-img-online-course {
-    h2,
-    p {
-        border-left: 10px solid color(hero);
-        padding-bottom: 8px;
-        padding-top: 5px;
-    }
+.bg-img-online-course p{
+  border-left: 10px solid #83cbff;
 }
-
 
 .bg-img-online-course{
     &::before {
@@ -55,41 +50,65 @@ $colors:(
 
 /*Media Query */
 @media (max-width: 992px) {
-    .bg-img-online-course h2 {
-      font-size: 40px !important;
-   }
-   p {
-    font-size: 20px !important;
-  }
-  }
-  @media (max-width: 768px) {
-    .bg-img-online-course h2 {
-      font-size: 40px !important;
-      margin-bottom: 10px !important;
-   }
-   p {
-    font-size: 18px !important;
-    line-height: 20px !important;
-  }
-  }
-  @media (max-width: 600px) {
-    .bg-img-online-course h2 {
-      font-size: 26px !important;
-   }
-  p {
-    font-size: 14px !important;
-  }
-  }
-  @media (max-width: 455px) {
-    .bg-img-online-course h2 {
-      font-size: 24px !important;
-      line-height: 23px !important;
-   }
-   p {
-    font-size: 14px !important;
-  }
-  }
+  .bg-img-online-course h2 {
+    font-size: 40px !important;
+ }
+ p {
+  font-size: 20px !important;
+}
+}
+@media (max-width: 768px) {
+  .bg-img-online-course h2 {
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
   
+ }
+ .online-course-text{
+  font-size: 18px !important;
+  line-height: 20px !important;
+
+}
+}
+@media (max-width: 653px) {
+  .bg-img-online-course h2 {
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: -10px !important;
+ }
+ .online-course-text {
+  font-size: 18px !important;
+  margin-left:-10px !important;
+}
+}
+@media (max-width: 580px) {
+  .bg-img-online-course h2 {
+    font-size: 36px !important;
+    margin-left: -67px !important;
+ }
+.online-course-text {
+
+  margin-left: -67px !important;
+}
+}
+@media (max-width: 455px) {
+  .bg-img-online-course h2 {
+    font-size: 29px !important;
+ }
+ .online-course-text {
+  font-size: 18px !important;
+}
+}
+
+@media (max-width: 400px) {
+  .bg-img-online-course h2 {
+    font-size: 29px !important;
+    line-height: 23px !important;
+    margin-left: -65px !important;
+ }
+ .online-course-text {
+  margin-left: -65px !important;
+}
+}
   /*Media Query End*/
 
 .banner-hero1 {
@@ -374,7 +393,6 @@ max-width: 200px;
   @media screen and (max-width: 450px) {
     .article-description-online-course{
       font: 500 11px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-      height: 50px;
     }
   
     .author-name-online-course {
