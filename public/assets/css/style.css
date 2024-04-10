@@ -9454,11 +9454,11 @@ ul li:last-child .card-list-4 {
   background: #05264e;
 }
 
-.color-text-paragraph-2 {
+/* .color-text-paragraph-2 {
   margin-bottom: 0;
-}
+} */
 
-.color-text-paragraph {
+.industry-intelligence-sub-text {
   color: #66789C;
   font-size: 24px;
   max-width: 780px;
@@ -9496,32 +9496,73 @@ ul li:last-child .card-list-4 {
 /* Background Blue random Design End */
 /*Media Query */
 @media (max-width: 992px) {
-  h2 {
-    font-size: 40px !important;
-  }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
     font-size: 20px !important;
+  
   }
 }
-@media (max-width: 768px) {
-  h2 {
-    font-size: 30px !important;
+@media (max-width: 770px) {
+  .bg-img-laptop h2 {
+    font-size: 40px !important;
     margin-bottom: 10px !important;
+    margin-left: 2px !important;
   }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
     font-size: 18px !important;
     line-height: 25px !important;
+    margin-left: 2px !important;
   }
 }
-@media (max-width: 768px) and (max-width: 455px) {
-  h2 {
-    font-size: 26px !important;
+
+@media (max-width: 673px) {
+  .bg-img-laptop h2 {
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: -44px !important;
   }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    margin-left: -44px !important;
+  }
+}
+@media (max-width: 580px) {
+
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-left: -64px !important;
+  }
+  .industry-intelligence-sub-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;  
+}
+}
+
+@media (max-width: 445px) {
+
+  .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
-  }
+    margin-left: -64px !important;  
+
 }
+}
+
+@media (max-width: 390px) {
+
+  .bg-img-laptop h2 {
+    font-size: 30px !important;
+
+  }
+  .industry-intelligence-sub-text {
+    font-size: 14px !important;
+    line-height: 20px !important;  
+    margin-left: -64px !important;
+ 
+}
+}
+
 /*Media Query  End*/
 /* Share Icon Start */
 .share-icon-container {

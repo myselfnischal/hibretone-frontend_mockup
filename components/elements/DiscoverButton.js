@@ -35,7 +35,7 @@ const DiscoverButton = () => {
                         <div className="row">
                             <div className="col">
                                 <h2 style={{ marginBottom: '20px', fontSize: '60px' }}>Industry Intelligence</h2>
-                                <p className="color-text-paragraph">Create bespoke <span className="color-blue"> Market Sector Guides, New Occupation Guides </span> and get <span className="color-blue"> inspiration </span> for your chosen <span className="color-blue">idea</span>, market, or career</p>
+                                <p className="industry-intelligence-sub-text">Create bespoke <span className="color-blue"> Market Sector Guides, New Occupation Guides </span> and get <span className="color-blue"> inspiration </span> for your chosen <span className="color-blue">idea</span>, market, or career</p>
                             </div>
                         </div>
                     </div>
