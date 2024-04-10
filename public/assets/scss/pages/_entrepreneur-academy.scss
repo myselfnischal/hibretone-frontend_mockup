@@ -32,15 +32,15 @@ $colors:(
     }
 }
 
-
-.bg-img-entrepreneur-academy {
-    h2,
-    p {
-        border-left: 10px solid color(hero);
-        padding-bottom: 2px;
-    }
-}
-
+.bg-img-entrepreneur-academy h2 {
+    border-left: 10px solid #83cbff;
+    padding-bottom: 8px;
+    padding-top: 5px;
+  }
+  
+  .bg-img-entrepreneur-academy p{
+    border-left: 10px solid #83cbff;
+  }
 
 .bg-img-entrepreneur-academy{
     &::before {
@@ -55,23 +55,12 @@ $colors:(
         background: color(primary); 
     }
 }
-.sub-heading-text-enacdemy{
+.sub-heading-text-enacademy{
+    color: #66789C;
     font-size: 24px;
     max-width: 1035px;
     line-height: 30px;
 }
-
-.color-text-paragraph-2 {
-    margin-bottom: 0;
-}
-.color-text-paragraph{
-    color: #66789C;
-    font-size: 24px;
-    max-width: 780px;
-    line-height: 30px;
-}
-
-
 
 .banner-hero1 {
     .block-banner1 {
@@ -107,24 +96,6 @@ $colors:(
     }
 }
 
-
-.btn-online-course-search {
-    background-color:#3AAB67;
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    width: 32%;
-    height: auto;
-    font-size: 16px;
-    margin-left: 12px;
-    padding: 8px;
-
-    &:hover {
-        transform: translateY(-2px);
-        background-color:#3AAB67;
-        transition: 0.2s;
-    }
-}
 
 @media screen and (max-width: 600px) {
 
@@ -186,5 +157,164 @@ $colors:(
     } 
 
 }
+
+ /*Media Query */
+ @media (max-width: 992px) {
+    .sub-heading-text-enacademy {
+      font-size: 20px !important;
+    
+    }
+  }
+  @media (max-width: 770px) {
+   .bg-img-entrepreneur-academy h2 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important;
+      margin-left: 2px !important;
+    }
+    .sub-heading-text-enacademy {
+      font-size: 18px !important;
+      line-height: 25px !important;
+      margin-left: 2px !important;
+    }
+  }
+  
+  @media (max-width: 673px) {
+   .bg-img-entrepreneur-academy h2 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important;
+      margin-left: -44px !important;
+    }
+    .sub-heading-text-enacademy {
+      font-size: 18px !important;
+      line-height: 25px !important;
+      margin-left: -44px !important;
+    }
+  }
+  @media (max-width: 580px) {
+  
+   .bg-img-entrepreneur-academy h2 {
+      font-size: 36px !important;
+      margin-left: -64px !important;
+    }
+    .sub-heading-text-enacademy {
+      font-size: 16px !important;
+      line-height: 20px !important;
+      margin-left: -64px !important;  
+  }
+  }
+  
+  @media (max-width: 445px) {
+  
+    .sub-heading-text-enacademy {
+      font-size: 14px !important;
+      line-height: 20px !important;
+      margin-left: -64px !important;  
+  
+  }
+  }
+  
+  @media (max-width: 390px) {
+  
+   .bg-img-entrepreneur-academy h2 {
+      font-size: 30px !important;
+  
+    }
+    .sub-heading-text-enacademy {
+      font-size: 14px !important;
+      line-height: 20px !important;  
+      margin-left: -64px !important;
+   
+  }
+  }
+ /*Media Query  End*/
+
+
 /*hero secton end */
 
+
+ /* Share Icon Start */
+
+.share-icon-container {
+    position: absolute;
+  }
+  
+  .share-icon {
+    font-size: 30px;
+    color: #3c65f5;
+  }
+  .share-icon:hover {
+    transform: translateY(-2px);
+    color: #ffffff;
+    background-color: #05264e;
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+  .item {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width:1200px){
+    .share-icon{
+      margin-left: 35px !important;
+      margin-top: -76px !important;
+  
+    }
+    }
+  @media screen and (max-width:999px){
+    .share-icon{
+      margin-left: 14px !important;
+      margin-top: -76px !important;
+  
+    }
+    }
+  
+  @media screen and (max-width:768px){
+    .share-icon{
+      margin-left: 32px !important;
+      margin-top: -76px !important;
+  
+    }
+    }
+  @media screen and (max-width:580px){
+  .share-icon{
+    margin-left: 3px !important;
+    margin-top: -80px !important;
+  }
+  }
+/* Share Icon End */
+
+
+ /* Background Blue random Design */
+
+ .background-random-entrepreneur-academy {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-random-entrepreneur-academy {
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      width: 800px;
+      height: 1500px;
+      background: #f2f6fd;
+      transform-origin: top left;
+      z-index: -1;
+      border-radius: 12px;
+    }
+  }
+  .background-random-entrepreneur-academy {
+    &::before {
+      transform: rotate(-8deg);
+      top: 800px;
+      left: -300px;
+    }
+  
+    &::after {
+      transform: rotate(8deg);
+      top: 1200px;
+      right: -300px;
+    }
+  }
+
+ /* Background Blue random Design End */

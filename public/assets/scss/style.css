@@ -9051,6 +9051,53 @@ ul li:last-child .card-list-4 {
   }
 }
 /*Media Query End*/
+/* Share Icon Start */
+.share-icon-container {
+  position: absolute;
+}
+
+.share-icon {
+  font-size: 30px;
+  color: #3c65f5;
+}
+
+.share-icon:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+.item {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .share-icon {
+    margin-left: 35px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 999px) {
+  .share-icon {
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .share-icon {
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .share-icon {
+    margin-left: 3px !important;
+    margin-top: -80px !important;
+  }
+}
+/* Share Icon End */
 .banner-hero1 .block-banner1 .online-course-form-find {
   background: #ffffff;
   width: 1100px;
@@ -10073,38 +10120,60 @@ ul li:last-child .card-list-4 {
 /* Background Blue random Design End */
 /*Media Query */
 @media (max-width: 992px) {
-  .bg-img-laptop h2 {
-    font-size: 40px !important;
-  }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
     font-size: 20px !important;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .bg-img-laptop h2 {
-    font-size: 30px !important;
+    font-size: 40px !important;
     margin-bottom: 10px !important;
+    margin-left: 2px !important;
   }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
     font-size: 18px !important;
     line-height: 25px !important;
+    margin-left: 2px !important;
   }
 }
-@media (max-width: 768px) and (max-width: 455px) {
+@media (max-width: 673px) {
   .bg-img-laptop h2 {
-    font-size: 26px !important;
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: -44px !important;
   }
-  .color-text-paragraph-2 {
+  .industry-intelligence-sub-text {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    margin-left: -44px !important;
+  }
+}
+@media (max-width: 580px) {
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-left: -64px !important;
+  }
+  .industry-intelligence-sub-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
+  }
+}
+@media (max-width: 445px) {
+  .industry-intelligence-sub-text {
     font-size: 14px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 390px) {
   .bg-img-laptop h2 {
-    font-size: 26px !important;
-    line-height: 23px !important;
+    font-size: 30px !important;
   }
-  .color-text-paragraph {
-    font-size: 12px !important;
+  .industry-intelligence-sub-text {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
   }
 }
 /*Media Query  End*/
@@ -10115,45 +10184,43 @@ ul li:last-child .card-list-4 {
 
 .share-icon {
   font-size: 30px;
+  color: #3c65f5;
+}
+
+.share-icon:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
 }
 
 .item {
   font-size: 16px;
 }
 
-.btn-share-search {
-  padding: 5px;
-  background-color: #ffffff;
-  color: #3c65f5;
-  border: none;
-  border-radius: 8px;
-  height: auto;
-  font-size: 16px;
-  width: "90px";
-  font-weight: bold;
-  margin-left: -3px;
-  margin-top: -26px;
-}
-
-.btn-share-search:hover {
-  transform: translateY(-2px);
-  color: #ffffff;
-  background-color: #05264e;
-  transition: 0.2s;
-}
-
-@media screen and (max-width: 999px) {
-  .btn-share-search {
-    position: absolute;
-    left: 1px;
-    top: 26px;
+@media screen and (max-width: 1200px) {
+  .share-icon {
+    margin-left: 35px !important;
+    margin-top: -76px !important;
   }
 }
-@media screen and (max-width: 600px) {
-  .btn-share-search {
-    position: absolute;
-    left: 65px;
-    top: -15px;
+@media screen and (max-width: 999px) {
+  .share-icon {
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .share-icon {
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .share-icon {
+    margin-left: 3px !important;
+    margin-top: -80px !important;
   }
 }
 /* Share Icon End */
@@ -10861,10 +10928,14 @@ ul li:last-child .card-list-4 {
   padding-left: 25px;
 }
 
-.bg-img-entrepreneur-academy h2,
+.bg-img-entrepreneur-academy h2 {
+  border-left: 10px solid #83cbff;
+  padding-bottom: 8px;
+  padding-top: 5px;
+}
+
 .bg-img-entrepreneur-academy p {
   border-left: 10px solid #83cbff;
-  padding-bottom: 2px;
 }
 
 .bg-img-entrepreneur-academy::before {
@@ -10879,20 +10950,10 @@ ul li:last-child .card-list-4 {
   background: #05264e;
 }
 
-.sub-heading-text-enacdemy {
-  font-size: 24px;
-  max-width: 1035px;
-  line-height: 30px;
-}
-
-.color-text-paragraph-2 {
-  margin-bottom: 0;
-}
-
-.color-text-paragraph {
+.sub-heading-text-enacademy {
   color: #66789C;
   font-size: 24px;
-  max-width: 780px;
+  max-width: 1035px;
   line-height: 30px;
 }
 
@@ -10917,23 +10978,6 @@ ul li:last-child .card-list-4 {
   font-size: 16px;
   width: 250%;
   border: none;
-}
-
-.btn-online-course-search {
-  background-color: #3AAB67;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  width: 32%;
-  height: auto;
-  font-size: 16px;
-  margin-left: 12px;
-  padding: 8px;
-}
-.btn-online-course-search:hover {
-  transform: translateY(-2px);
-  background-color: #3AAB67;
-  transition: 0.2s;
 }
 
 @media screen and (max-width: 600px) {
@@ -10980,7 +11024,142 @@ ul li:last-child .card-list-4 {
     margin-top: 10px;
   }
 }
+/*Media Query */
+@media (max-width: 992px) {
+  .sub-heading-text-enacademy {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 770px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: 2px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    margin-left: 2px !important;
+  }
+}
+@media (max-width: 673px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+    margin-left: -44px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    margin-left: -44px !important;
+  }
+}
+@media (max-width: 580px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 36px !important;
+    margin-left: -64px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
+  }
+}
+@media (max-width: 445px) {
+  .sub-heading-text-enacademy {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
+  }
+}
+@media (max-width: 390px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 30px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-left: -64px !important;
+  }
+}
+/*Media Query  End*/
 /*hero secton end */
+/* Share Icon Start */
+.share-icon-container {
+  position: absolute;
+}
+
+.share-icon {
+  font-size: 30px;
+  color: #3c65f5;
+}
+
+.share-icon:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+.item {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .share-icon {
+    margin-left: 35px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 999px) {
+  .share-icon {
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .share-icon {
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .share-icon {
+    margin-left: 3px !important;
+    margin-top: -80px !important;
+  }
+}
+/* Share Icon End */
+/* Background Blue random Design */
+.background-random-entrepreneur-academy {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-random-entrepreneur-academy::before, .background-random-entrepreneur-academy::after {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 1500px;
+  background: #f2f6fd;
+  transform-origin: top left;
+  z-index: -1;
+  border-radius: 12px;
+}
+
+.background-random-entrepreneur-academy::before {
+  transform: rotate(-8deg);
+  top: 800px;
+  left: -300px;
+}
+.background-random-entrepreneur-academy::after {
+  transform: rotate(8deg);
+  top: 1200px;
+  right: -300px;
+}
+
+/* Background Blue random Design End */
 @media (max-width: 1399.98px) {
   .custom-class {
     display: block;

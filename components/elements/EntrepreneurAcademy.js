@@ -14,7 +14,7 @@ const OnlineCourse = () => {
                         <div className="row">
                             <div className="col">
                                 <h2 style={{ marginBottom: '20px', fontSize: '60px' }}>Entrepreneur Academy</h2>
-                                <p className="sub-heading-text-enacdemy">UK’s leading evidence driven online entrepreneurship learning programme.<span className="color-blue">Empowering every aspirer</span> the confidence and opportunity <span className="color-blue">to start a successful enterprise</span>.</p>
+                                <p className="sub-heading-text-enacademy">UK’s leading evidence driven online entrepreneurship learning programme.<span className="color-blue">Empowering every aspirer</span> the confidence and opportunity <span className="color-blue">to start a successful enterprise</span>.</p>
                             </div>
                         </div>
                     </div>
@@ -25,9 +25,7 @@ const OnlineCourse = () => {
                 <div className="container">
                     <div className="flex-container">
                         <div className="share-icon-container">
-                            <button className="btn-share-search">
                                 <IoShareSocialOutline className="share-icon" />
-                            </button>
                         </div>
                         <div className="text-center">
                             <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>

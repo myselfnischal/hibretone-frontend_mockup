@@ -46,7 +46,7 @@ export default function Index() {
 
 
         
-        <div className="background-random-online-course mb-25">
+        <div className="background-random-entrepreneur-academy mb-25">
         < EntrepreneurAcademy />
           <section className="section-box mt-25 mb-25">
             <YellowBanner />
