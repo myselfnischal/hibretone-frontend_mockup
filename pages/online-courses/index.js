@@ -34,6 +34,7 @@ const PopularCourseTwo = dynamic(
   () => import("../../components/elements/PopuarCourse2"),
   { ssr: false }
 );
+
 export default function Index() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -101,7 +102,6 @@ export default function Index() {
                             </div>
                         </div>
                     </section>
-
                     <div className="col d-flex justify-content-center align-items-center mt-50">
                                     <button className="btn btn-sign-up-inverted fs-6 hover-up font-force-lg">
                                         Subscribe For Full Access

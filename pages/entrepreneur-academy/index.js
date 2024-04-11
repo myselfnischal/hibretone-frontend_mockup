@@ -33,6 +33,12 @@ const NoSSRBrandSlider = dynamic(
   () => import("../../components/sliders/Brand"),
   { ssr: false }
 );
+
+const NoSSRTestimonialSliderEntrepreneurAcademy = dynamic(
+  () => import("../../components/sliders/TestimoniaEntrepreneurAcademy"),
+  { ssr: false }
+);
+
 export default function Index() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +53,7 @@ export default function Index() {
         
         <div className="background-random-entrepreneur-academy mb-25">
         < EntrepreneurAcademy />
-          <section className="section-box mt-25 mb-25">
+          <section className="section-box mt-40 mb-25">
             <YellowBanner />
           </section>
        
@@ -67,7 +73,7 @@ export default function Index() {
                     </section>
 
     
-                    <section className="section-box mb-25">
+                    <section className="section-box mt-75 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
@@ -94,7 +100,7 @@ export default function Index() {
                         </div>
                     </section>
 
-                    <section className="section-box mb-25">
+                    <section className="section-box mt-50 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
@@ -111,7 +117,7 @@ export default function Index() {
                         </div>
                     </section>
 
-                    <section className="section-box mb-25">
+                    <section className="section-box mt-65 mb-25">
                     <div className="container">
                             <div className="list-brands mt-40 mb-30">
                                 <div className="box-swiper">
@@ -122,6 +128,27 @@ export default function Index() {
                             </div>
                         </div>
                         </section>
+
+                        <section className="section-box mt-50">
+                        <div className="section-box wow animate__animated animate__fadeIn">
+                            <div className="container">
+                                <div className="text-center">
+                                    <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp" style={{ fontSize: '36px !important' }}>
+                                        Testimonials
+                                    </h2>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">
+                                    Trusted feedback from aspirers attending our programmes 
+                                        
+                                    </p>
+                                </div>
+                                <div className="box-swiper mt-50">
+                                    <div className="swiper-button-next" />
+                                    <div className="swiper-button-prev" />
+                                    <NoSSRTestimonialSliderEntrepreneurAcademy />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
                     <div className="col d-flex justify-content-center align-items-center mt-50">
                                     <button className="btn btn-sign-up-inverted fs-6 hover-up font-force-lg">

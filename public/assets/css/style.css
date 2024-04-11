@@ -11841,6 +11841,8 @@ max-width: 200px;
 }
 /* popular courses end */
 
+
+
 /*entrepreneur academy */
 .bg-img-entrepreneur-academy {
   display: flex;
@@ -12163,13 +12165,13 @@ max-width: 200px;
 }
 .background-random-entrepreneur-academy::before {
   transform: rotate(-8deg);
-  top: 1500px;
+  top: 1200px;
   left: -300px;
   border-radius: 12px;
 }
 .background-random-entrepreneur-academy::after {
   transform: rotate(8deg);
-  top: 1800px;
+  top: 800px;
   right: -300px;
   border-radius: 25px;
 }

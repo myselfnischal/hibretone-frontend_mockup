@@ -9069,10 +9069,6 @@ ul li:last-child .card-list-4 {
   border-radius: 4px;
 }
 
-.item {
-  font-size: 16px;
-}
-
 @media screen and (max-width: 1200px) {
   .share-icon-online-course {
     margin-left: 35px !important;
@@ -10195,10 +10191,6 @@ ul li:last-child .card-list-4 {
   border-radius: 4px;
 }
 
-.item {
-  font-size: 16px;
-}
-
 @media screen and (max-width: 1200px) {
   .share-icon-industry-intelligence {
     margin-left: 35px !important;
@@ -11150,6 +11142,210 @@ ul li:last-child .card-list-4 {
 }
 
 /* Background Blue random Design End */
+/* Popular acceletor lesson Start */
+.author-image-entrepreneur-academy {
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35px;
+  margin: auto 0;
+  border-radius: 50%;
+}
+
+.article-description-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px/25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 10px;
+  height: 125px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.read-time-entrepreneur-academy {
+  color: var(--text-Paragrap-2, #435579);
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 500 16px/156% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  text-align: right;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .article-description-entrepreneur-academy {
+    font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 100px;
+  }
+  .read-time-entrepreneur-academy {
+    font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 760px) {
+  .article-description-entrepreneur-academy {
+    font: 500 13px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 120px;
+  }
+  .read-time-entrepreneur-academy {
+    font: 500 12px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 450px) {
+  .article-description-online-course {
+    font: 500 11px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .read-time-entrepreneur-academy {
+    font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .article-title {
+    font-size: 20px !important;
+    height: 77px !important;
+  }
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .article-title {
+    font-size: 20px !important;
+    height: 77px !important;
+  }
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .author-image-entrepreneur-academy {
+    width: 20px;
+  }
+}
+.background-random-entrepreneur-academy {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-random-entrepreneur-academy::before, .background-random-entrepreneur-academy::after {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 1500px;
+  background: #f2f6fd;
+  transform-origin: top left;
+  z-index: -1;
+}
+
+.background-random-entrepreneur-academy::before {
+  transform: rotate(-8deg);
+  top: 1200px;
+  left: -300px;
+  border-radius: 12px;
+}
+
+.background-random-entrepreneur-academy::after {
+  transform: rotate(8deg);
+  top: 800px;
+  right: -300px;
+  border-radius: 25px;
+}
+
+.card-content {
+  border-radius: 16px;
+  border: 1px solid #e0e6f6;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 13px 12px;
+  height: 100%;
+}
+
+.featured-image {
+  aspect-ratio: 1.85;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.article-title {
+  color: var(--brand-brand-1, #05264e);
+  align-self: start;
+  margin: 22px 0 0 10px;
+  font: 700 20px/26px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.image-text {
+  position: absolute;
+  background-color: #b4c0e0;
+  border: none;
+  border-radius: 6px;
+  height: auto;
+  font-size: 16px;
+  padding: 0px 5px 0px 8px;
+  margin-left: 45px;
+  margin-top: 35px;
+  color: #3c65f5;
+}
+
+@media (max-width: 991px) {
+  .card-content {
+    max-width: 100%;
+  }
+  .featured-image {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .card-content {
+    padding: 10px;
+  }
+  .card-list {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
+  }
+  .featured-image {
+    max-width: 100%;
+  }
+}
+/* Popular acceletor lesson End */
 @media (max-width: 1399.98px) {
   .custom-class {
     display: block;

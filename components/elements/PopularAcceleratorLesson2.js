@@ -17,7 +17,7 @@ const PopularAcceleratorLesson2 = () => {
             title: "Pitching, Testing, and Prototyping",
             description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
-        readTime: "2-3 hours",
+        readTime: "16mins",
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
         },
@@ -27,7 +27,7 @@ const PopularAcceleratorLesson2 = () => {
             title: "Identifying problems your product solves",
             description:
                 "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
-            readTime: "2-3 hours",
+            readTime: "23 mins",
             author: {
                 image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
           },  
@@ -37,7 +37,7 @@ const PopularAcceleratorLesson2 = () => {
         title: "Product Ideation and Brainstorming",
         description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
-        readTime: "2-3 hours",
+        readTime: "34 mins",
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
       },
