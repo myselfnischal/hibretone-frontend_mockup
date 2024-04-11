@@ -74,7 +74,7 @@ export default function EntrepreneurAcademyVideo() {
   sx={{ display: { xs: 'none', md: 'flex', lg: 'none' } }} 
 >
   <Grid item xs={12} md={12}>
-    <h3 style={{ fontSize: '36px !important' }}>Fail-forward into Success</h3>
+    <h3 style={{ fontSize: '36px !important' }}>Accelerating Your Success</h3>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
     <div className="about__thumb-wrapper d-sm-flex p-relative">
@@ -140,7 +140,7 @@ export default function EntrepreneurAcademyVideo() {
   sx={{ display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' } }}
 >
   <Grid item xs={12} md={12}>
-    <h3 style={{ fontSize: '26px !important' }}>Fail-forward into Success</h3>
+    <h3 style={{ fontSize: '36px !important' }}>Accelerating Your Success</h3>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
   <div className='grid__thumb w-img fix grid_thumb_height grid_thumb'>

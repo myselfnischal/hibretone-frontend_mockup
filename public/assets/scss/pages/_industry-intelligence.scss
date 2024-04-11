@@ -118,7 +118,7 @@ $font-family:Plus Jakarta Sans, sans-serif;
   }
   @media (max-width: 770px) {
     .bg-img-laptop h2 {
-      font-size: 40px !important;
+      font-size: 36px !important;
       margin-bottom: 10px !important;
       margin-left: 2px !important;
     }
@@ -180,63 +180,16 @@ $font-family:Plus Jakarta Sans, sans-serif;
  /*Media Query  End*/
 
  /* Share Icon Start */
-//  .share-icon-container {
-//     position: absolute;
-// }
 
-// .share-icon {
-//     font-size: 30px;
-// }
-
-// .item {
-//     font-size: 16px;
-// }
-
-// .btn-share-search {
-//     padding: 5px;
-//     background-color: #ffffff;
-//     color: color(discover-intelligence);
-//     border: none;
-//     border-radius: 8px;
-//     height: auto;
-//     font-size: 16px;
-//     width: "90px";
-//     font-weight: bold;
-//     margin-left: -3px;
-//     margin-top: -26px;
-// }
-
-// .btn-share-search:hover {
-//     transform: translateY(-2px);
-//     color: #ffffff;
-//     background-color:color(primary);
-//     transition: 0.2s;
-// }
-
-// @media screen and (max-width: 999px) {
-//     .btn-share-search {
-//         position: absolute;
-//         left: 1px;
-//         top: 26px;
-//     }
-// }
-
-// @media screen and (max-width: 600px) {
-//     .btn-share-search {
-//         position: absolute;
-//         left: 65px;
-//         top: -15px;
-//     }
-// }
-.share-icon-container {
+ .share-icon-industry-intelligence-container{
     position: absolute;
   }
   
-  .share-icon {
+  .share-icon-industry-intelligence {
     font-size: 30px;
     color: #3c65f5;
   }
-  .share-icon:hover {
+  .share-icon-industry-intelligence:hover {
     transform: translateY(-2px);
     color: #ffffff;
     background-color: #05264e;
@@ -248,14 +201,14 @@ $font-family:Plus Jakarta Sans, sans-serif;
   }
   
   @media screen and (max-width:1200px){
-    .share-icon{
+    .share-icon-industry-intelligence{
       margin-left: 35px !important;
       margin-top: -76px !important;
   
     }
     }
   @media screen and (max-width:999px){
-    .share-icon{
+    .share-icon-industry-intelligence{
       margin-left: 14px !important;
       margin-top: -76px !important;
   
@@ -263,14 +216,14 @@ $font-family:Plus Jakarta Sans, sans-serif;
     }
   
   @media screen and (max-width:768px){
-    .share-icon{
+    .share-icon-industry-intelligence{
       margin-left: 32px !important;
       margin-top: -76px !important;
   
     }
     }
   @media screen and (max-width:580px){
-  .share-icon{
+  .share-icon-industry-intelligence{
     margin-left: 3px !important;
     margin-top: -80px !important;
   }

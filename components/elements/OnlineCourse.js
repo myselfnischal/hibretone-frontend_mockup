@@ -24,10 +24,8 @@ const OnlineCourse = () => {
             <section className="section-box mt-50 mb-25">
                 <div className="container">
                     <div className="flex-container">
-                        <div className="share-icon-container">
-                            {/* <button className="btn-share-search"> */}
-                                <IoShareSocialOutline className="share-icon" />
-                            {/* </button> */}
+                        <div className="share-icon-online-course-container">
+                                <IoShareSocialOutline className="share-icon-online-course" />
                         </div>
                         <div className="text-center">
                             <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>

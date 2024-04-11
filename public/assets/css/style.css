@@ -9564,16 +9564,17 @@ ul li:last-child .card-list-4 {
 }
 
 /*Media Query  End*/
-/* Share Icon Start */
-.share-icon-container {
+ /* Share Icon Start */
+
+ .share-icon-industry-intelligence-container{
   position: absolute;
 }
 
-.share-icon {
+.share-icon-industry-intelligence {
   font-size: 30px;
   color: #3c65f5;
 }
-.share-icon:hover {
+.share-icon-industry-intelligence:hover {
   transform: translateY(-2px);
   color: #ffffff;
   background-color: #05264e;
@@ -9584,43 +9585,36 @@ ul li:last-child .card-list-4 {
   font-size: 16px;
 }
 
-.btn-share-search {
-  padding: 5px;
-  background-color: #ffffff;
-  color: #3c65f5;
-  border: none;
-  border-radius: 8px;
-  height: auto;
-  font-size: 16px;
-  width: "90px";
-  font-weight: bold;
-  margin-left: -3px;
-  margin-top: -26px;
-}
+@media screen and (max-width:1200px){
+  .share-icon-industry-intelligence{
+    margin-left: 35px !important;
+    margin-top: -76px !important;
 
-.btn-share-search:hover {
-  transform: translateY(-2px);
-  color: #ffffff;
-  background-color: #05264e;
-  transition: 0.2s;
-}
-
-@media screen and (max-width: 999px) {
-  .btn-share-search {
-    position: absolute;
-    left: 1px;
-    top: 26px;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .btn-share-search {
-    position: absolute;
-    left: 65px;
-    top: -15px;
   }
+@media screen and (max-width:999px){
+  .share-icon-industry-intelligence{
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+
+@media screen and (max-width:768px){
+  .share-icon-industry-intelligence{
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+@media screen and (max-width:580px){
+.share-icon-industry-intelligence{
+  margin-left: 3px !important;
+  margin-top: -80px !important;
+}
 }
 /* Share Icon End */
+
 /* Discover Intelligence Button Start */
 .btn.btn-discover-intelligence {
   color: #ffffff;
@@ -11056,7 +11050,7 @@ ul li:last-child .card-list-4 {
 
 
 
-
+/*online course */
 
 .bg-img-online-course {
   display: flex;
@@ -11154,6 +11148,64 @@ ul li:last-child .card-list-4 {
 
 /*Media Query End*/
 
+/* Share Icon Start */
+.share-icon-online-course-container {
+  position: absolute;
+}
+
+.share-icon-online-course {
+  font-size: 30px;
+  color: #3c65f5;
+}
+.share-icon-online-course:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+.item {
+  font-size: 16px;
+}
+
+.btn-share-search {
+  padding: 5px;
+  background-color: #ffffff;
+  color: #3c65f5;
+  border: none;
+  border-radius: 8px;
+  height: auto;
+  font-size: 16px;
+  width: "90px";
+  font-weight: bold;
+  margin-left: -3px;
+  margin-top: -26px;
+}
+
+.btn-share-search:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 999px) {
+  .btn-share-search {
+    position: absolute;
+    left: 1px;
+    top: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn-share-search {
+    position: absolute;
+    left: 65px;
+    top: -15px;
+  }
+}
+/* Share Icon End */
+
 .banner-hero1 .block-banner1 .online-course-form-find {
   background: #fff;
   width: 1100px;
@@ -11192,14 +11244,14 @@ ul li:last-child .card-list-4 {
 }
 
 @media screen and (max-width:1200px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 35px !important;
     margin-top: -76px !important;
 
   }
   }
 @media screen and (max-width:999px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 14px !important;
     margin-top: -76px !important;
 
@@ -11207,14 +11259,14 @@ ul li:last-child .card-list-4 {
   }
 
 @media screen and (max-width:768px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 32px !important;
     margin-top: -76px !important;
 
   }
   }
 @media screen and (max-width:580px){
-.share-icon{
+.share-icon-online-course{
   margin-left: 3px !important;
   margin-top: -80px !important;
 }
@@ -11891,6 +11943,55 @@ max-width: 200px;
 }
 }
 /*Media Query  End*/
+
+ /* Share Icon Start */
+
+ .share-icon-entrepreneur-academy-container{
+  position: absolute;
+}
+
+.share-icon-entrepreneur-academy {
+  font-size: 30px;
+  color: #3c65f5;
+}
+.share-icon-entrepreneur-academy:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+
+@media screen and (max-width:1200px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 35px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+@media screen and (max-width:999px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+
+@media screen and (max-width:768px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+@media screen and (max-width:580px){
+.share-icon-entrepreneur-academy{
+  margin-left: 3px !important;
+  margin-top: -80px !important;
+}
+}
+/* Share Icon End */
 
 /* EntrepreneurAcademyCounter Start */
 .counter {

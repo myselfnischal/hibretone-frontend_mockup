@@ -45,9 +45,9 @@ const DiscoverButton = () => {
             <section className="section-box mt-50 mb-15">
                 <div className="container">
                     <div className="flex-container">
-                        <div className="share-icon-container">
+                        <div className="share-icon-industry-intelligence-container">
           
-                                <IoShareSocialOutline className="share-icon" />
+                                <IoShareSocialOutline className="share-icon-industry-intelligence" />
                 
                         </div>
                         <div className="text-center">

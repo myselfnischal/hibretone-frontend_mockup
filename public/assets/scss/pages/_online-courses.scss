@@ -112,15 +112,15 @@ $colors:(
   /*Media Query End*/
 
 /* Share Icon Start */
-.share-icon-container {
+.share-icon-online-course-container{
   position: absolute;
 }
 
-.share-icon {
+.share-icon-online-course {
   font-size: 30px;
   color: #3c65f5;
 }
-.share-icon:hover {
+.share-icon-online-course:hover {
   transform: translateY(-2px);
   color: #ffffff;
   background-color: #05264e;
@@ -132,14 +132,14 @@ $colors:(
 }
 
 @media screen and (max-width:1200px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 35px !important;
     margin-top: -76px !important;
 
   }
   }
 @media screen and (max-width:999px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 14px !important;
     margin-top: -76px !important;
 
@@ -147,14 +147,14 @@ $colors:(
   }
 
 @media screen and (max-width:768px){
-  .share-icon{
+  .share-icon-online-course{
     margin-left: 32px !important;
     margin-top: -76px !important;
 
   }
   }
 @media screen and (max-width:580px){
-.share-icon{
+.share-icon-online-course{
   margin-left: 3px !important;
   margin-top: -80px !important;
 }

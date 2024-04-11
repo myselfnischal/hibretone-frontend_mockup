@@ -25,8 +25,8 @@ const OnlineCourse = () => {
             <section className="section-box mt-50 mb-25">
                 <div className="container">
                     <div className="flex-container">
-                        <div className="share-icon-container">
-                                <IoShareSocialOutline className="share-icon" />
+                        <div className="share-icon-entrepreneur-academy-container">
+                                <IoShareSocialOutline className="share-icon-entrepreneur-academy" />
                         </div>
                         <div className="text-center">
                                 <EntrepreneurAcademyCounter />
