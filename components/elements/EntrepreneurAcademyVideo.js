@@ -74,7 +74,7 @@ export default function EntrepreneurAcademyVideo() {
   sx={{ display: { xs: 'none', md: 'flex', lg: 'none' } }} 
 >
   <Grid item xs={12} md={12}>
-    <h3 style={{ fontSize: '36px !important' }}>Accelerating Your Success</h3>
+    <h3 style={{ fontSize: '24px !important' }}>Accelerating Your Success</h3>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
     <div className="about__thumb-wrapper d-sm-flex p-relative">
@@ -140,7 +140,7 @@ export default function EntrepreneurAcademyVideo() {
   sx={{ display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' } }}
 >
   <Grid item xs={12} md={12}>
-    <h3 style={{ fontSize: '36px !important' }}>Accelerating Your Success</h3>
+    <h3 style={{ fontSize: '24px !important' }}>Accelerating Your Success</h3>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
   <div className='grid__thumb w-img fix grid_thumb_height grid_thumb'>
@@ -169,7 +169,7 @@ export default function EntrepreneurAcademyVideo() {
                         finger-tips.
                       </p>
     </div>
-    <div className="mt-20 mb-30">
+    <div className="mt-20">
       <button href="" className="btn btn-default fs-6">
        Get Started
       </button>

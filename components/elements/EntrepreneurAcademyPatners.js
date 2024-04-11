@@ -70,6 +70,49 @@ export default function EntrepreneurAcademyVideo() {
                                     </Grid>
                                 </Grid>
                                 <Grid
+  container
+  alignItems="center"
+  style={{ minWidth: '100%' }}
+  sx={{ display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' } }}
+>
+  <Grid item xs={12} md={12}>
+    <h3 style={{ fontSize: '24px !important' }}>Preferred Partners</h3>
+  </Grid>
+  <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
+  <div className='grid__thumb w-img fix grid_thumb_height grid_thumb'>
+                                <iframe width="" height="100%" src="https://www.youtube.com/embed/XPf1kLnJpio" frameborder="0" allowfullscreen></iframe>
+                            </div>
+  </Grid>
+  <Grid item xs={12} md={12} style={{ marginTop: '40px' }}>
+    <div style={{ textAlign: 'justify' }}>
+    <p className="" style={{ color: "#6C6E70" }}>
+                                 The Entrepreneur Accelerator is a 20
+                                course programme and the most popular 
+                                learning programme within the Entrepreneur Academy. 
+                      </p>
+                            
+                      <p className=" mt-10" style={{ color: "#6C6E70" }}>
+                      90% of entrepreneurs fail within 12 months. Research conducted
+                      by NatWest show 82% of entrepreneurs who have completed an in-person
+                     Accelerator are still in business 3 years on. The power of Accelerators 
+                     to improve startup success is proven and why every entrepreneur wishing 
+                     to start a successful business is incentivised to complete the programme.
+                      </p>
+                              
+                      <p className=" mt-10" style={{ color: "#6C6E70" }}>
+                      The hibretOne Accelerator gets you prepared and when completed,
+                       provides an overview of the key elements to start an enterprise.
+                        finger-tips.
+                      </p>
+    </div>
+                 <div className="mt-20 mb-30">
+                      <button href="" className="btn btn-default fs-6">
+                      Find a Bursary
+                      </button>
+    </div>
+  </Grid>
+  </Grid>
+                                {/* <Grid
                                     container
                                     alignItems="center"
                                     style={{ minWidth: "100%" }}
@@ -93,7 +136,7 @@ export default function EntrepreneurAcademyVideo() {
                                         <iframe
                                             className="content-media"
                                             width="663"
-                                            height="504"
+                                            height="100%"
                                             src="https://www.youtube.com/embed/XPf1kLnJpio"
                                             title="YouTube video player"
                                             frameborder="0"
@@ -133,7 +176,7 @@ export default function EntrepreneurAcademyVideo() {
                       </button>
                                         </div>
                                     </Grid>
-                                </Grid>
+                                </Grid> */}
                             </div>
                         </div>
                     </section>
