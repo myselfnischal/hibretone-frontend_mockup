@@ -4,6 +4,9 @@ import Layout from "../../components/Layout/Layout";
 import Subscription from "../../components/Layout/Subscription";
 import YellowBanner from "../../components/elements/YellowBanner";
 import EntrepreneurAcademy from "../../components/elements/EntrepreneurAcademy";
+import EntrepreneurAcademyVideo from "../../components/elements/EntrepreneurAcademyVideo";
+import EntrepreneurAcademyPatners from '../../components/elements/EntrepreneurAcademyPatners';
+
 import dynamic from "next/dynamic";
 
 
@@ -17,21 +20,17 @@ function useLockBodyScroll(open) {
     };
   }, [open]);
 }
-const OnlineCourseOne = dynamic(
-  () => import("../../components/sliders/OnlineCourse1"),
-  { ssr: false }
-);
-const OnlineCourseTwo = dynamic(
-  () => import("../../components/sliders/OnlineCourse2"),
-  { ssr: false }
-)
 
-const PopularCourseOne = dynamic(
-  () => import("../../components/elements/PopularCourse1"),
+const PopularAcceleratorLessonOne = dynamic(
+  () => import("../../components/elements/PopularAcceleratorLesson1"),
   { ssr: false }
 );
-const PopularCourseTwo = dynamic(
-  () => import("../../components/elements/PopuarCourse2"),
+const PopularAcceleratorLessonTwo = dynamic(
+  () => import("../../components/elements/PopularAcceleratorLesson2"),
+  { ssr: false }
+);
+const NoSSRBrandSlider = dynamic(
+  () => import("../../components/sliders/Brand"),
   { ssr: false }
 );
 export default function Index() {
@@ -51,10 +50,78 @@ export default function Index() {
           <section className="section-box mt-25 mb-25">
             <YellowBanner />
           </section>
+       
           <section className="section-box mt-50 mb-25">
-        {/* < OnlineCourseVideo /> */}
-        </section>
+                        <div className="section-box wow animate__animated animate__fadeIn">
+                            <div className="container">
+                                <div className="text-center">
+                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    Entrepreneur Accelerator
+                                    </h2>
+                                </div>
+                                    < EntrepreneurAcademyVideo />
+                                
+                                </div>
+                            
+                        </div>
+                    </section>
 
+    
+                    <section className="section-box mb-25">
+                        <div className="section-box wow animate__animated animate__fadeIn">
+                            <div className="container">
+                                <div className="text-center">
+                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    Most Popular Accelerator Lessons
+                                    </h2>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
+                                    Byte-sized entrepreneur learning
+                                    </p>
+                                </div>
+                                <div className="box-swiper mt-50 grant-category">
+                                    <div>
+                                        <PopularAcceleratorLessonOne />
+                                        <PopularAcceleratorLessonTwo />
+                                    </div>
+                                  
+                                </div>
+                                  <div className="col d-flex justify-content-center align-items-center mt-35">
+                        <button href="" className="btn btn-default fs-6">
+                       Get Started
+                          </button>
+                          </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="section-box mb-25">
+                        <div className="section-box wow animate__animated animate__fadeIn">
+                            <div className="container">
+                                <div className="text-center">
+                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    Featured Partners Rewarding Your Learning
+                                    </h2>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
+                                    A selection of our Partners, incentivising your entrepreneurial learning journey.
+                                    </p>
+                                </div>
+                               < EntrepreneurAcademyPatners />
+                          
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="section-box mb-25">
+                    <div className="container">
+                            <div className="list-brands mt-40 mb-30">
+                                <div className="box-swiper">
+                                    <div className="swiper-button-next swiper-button-margin" />
+                                    <div className="swiper-button-prev swiper-button-margin" />
+                                    <NoSSRBrandSlider />
+                                </div>
+                            </div>
+                        </div>
+                        </section>
 
                     <div className="col d-flex justify-content-center align-items-center mt-50">
                                     <button className="btn btn-sign-up-inverted fs-6 hover-up font-force-lg">

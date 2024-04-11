@@ -160,73 +160,65 @@ $colors:(
 
  /*Media Query */
  @media (max-width: 992px) {
+    .bg-img-entrepreneur-academy h2 {
+      font-size: 36px !important; 
+      margin-left: -30px !important;
+    }
     .sub-heading-text-enacademy {
       font-size: 20px !important;
-    
+      margin-left: -30px !important;
     }
   }
-  @media (max-width: 770px) {
+  @media (max-width: 790px) {
    .bg-img-entrepreneur-academy h2 {
-      font-size: 40px !important;
       margin-bottom: 10px !important;
-      margin-left: 2px !important;
     }
     .sub-heading-text-enacademy {
-      font-size: 18px !important;
       line-height: 25px !important;
-      margin-left: 2px !important;
     }
   }
   
-  @media (max-width: 673px) {
-   .bg-img-entrepreneur-academy h2 {
-      font-size: 40px !important;
-      margin-bottom: 10px !important;
-      margin-left: -44px !important;
-    }
-    .sub-heading-text-enacademy {
-      font-size: 18px !important;
-      line-height: 25px !important;
-      margin-left: -44px !important;
-    }
-  }
-  @media (max-width: 580px) {
-  
+  @media (max-width: 670px) {
    .bg-img-entrepreneur-academy h2 {
       font-size: 36px !important;
-      margin-left: -64px !important;
+      margin-bottom: 10px !important;
+      margin-left: -35px !important;
     }
     .sub-heading-text-enacademy {
       font-size: 16px !important;
-      line-height: 20px !important;
-      margin-left: -64px !important;  
+      line-height: 25px !important;
+      margin-left: -35px !important;
+    }
   }
-  }
+  @media (max-width: 600px) {
   
-  @media (max-width: 445px) {
+    .bg-img-entrepreneur-academy h2 {
+      font-size: 24px !important;
+      margin-left: -64px !important;  
+  
+    }
   
     .sub-heading-text-enacademy {
-      font-size: 14px !important;
+      font-size: 12px !important;
       line-height: 20px !important;
       margin-left: -64px !important;  
   
   }
   }
   
-  @media (max-width: 390px) {
+  @media (max-width: 400px) {
   
    .bg-img-entrepreneur-academy h2 {
-      font-size: 30px !important;
+      font-size: 25px !important;
   
     }
     .sub-heading-text-enacademy {
-      font-size: 14px !important;
+      font-size: 10px !important;
       line-height: 20px !important;  
-      margin-left: -64px !important;
    
   }
   }
- /*Media Query  End*/
+  /*Media Query  End*/
 
 
 /*hero secton end */

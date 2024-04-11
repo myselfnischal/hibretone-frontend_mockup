@@ -57,7 +57,7 @@ function IndustryIntelligenceGenerateBox() {
         const queryParams = new URLSearchParams(formData);
         const guideType = queryParams.get('guidetype');
         
-        if (guideType === 'Occupation Guide') {
+        if (guideType === 'New Occupation Guide') {
             const new_url = `/industry-intelligence/new-occupation-guide?${queryParams}`;
             if (window.location.pathname !== '/industry-intelligence/new-occupation-guide') {
                 router.push(new_url);

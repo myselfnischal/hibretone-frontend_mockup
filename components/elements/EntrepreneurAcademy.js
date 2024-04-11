@@ -1,6 +1,7 @@
 import React from "react";
 import OnlineCourseSearchButton from './OnlineCourseSearchButton';;
 import { IoShareSocialOutline } from "react-icons/io5";
+import EntrepreneurAcademyCounter from '../../components/elements/EntrepreneurAcademyCounter';
 
 
 const OnlineCourse = () => {
@@ -28,14 +29,10 @@ const OnlineCourse = () => {
                                 <IoShareSocialOutline className="share-icon" />
                         </div>
                         <div className="text-center">
-                            <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
-                              Upskilling  for Better-paying Careers
-                            </h2>
-                            <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto"style={{color:'#435579'}}>
-                               Creating opportunities through education
-                            </p>
-                        </div>
-                    </div>
+                                <EntrepreneurAcademyCounter />
+                            </div>
+                            </div>
+                    
                 </div>
             </section>
             <section className="section-box mt-25 mb-25">
