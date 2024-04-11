@@ -21,7 +21,8 @@ const PopularAcceleratorLesson2 = () => {
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
         },
-        type:"People"
+        type:"People",
+        type1:"Users"
         }, {
             image: "assets/imgs/page/online-courses/img1.png",
             title: "Identifying problems your product solves",
@@ -31,7 +32,8 @@ const PopularAcceleratorLesson2 = () => {
             author: {
                 image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
           },  
-          type:"Product"
+          type:"Product",
+          type1:"Product"
       }, {
         image: "assets/imgs/page/online-courses/img2.jpg",
         title: "Product Ideation and Brainstorming",
@@ -41,7 +43,8 @@ const PopularAcceleratorLesson2 = () => {
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
       },
-      type:"Finance"
+      type:"Finance",
+      type1:"Strategic"
   }
     ];
 
@@ -80,7 +83,8 @@ const PopularAcceleratorLesson2 = () => {
                                             alt="Article featured image"
                                             className="featured-image"
                                         />
-                                           <p className='image-text'>{item.type}</p>
+                                         <p className='image-text-entrepreneur-academy'>{item.type}</p>
+                                           <p className='image-text-entrepreneur-academy-type-one'>{item.type1}</p>
                                         <div className="article-category"></div>
                                         <a href="/entrepreneur-academy">
                                                     <div className="article-title">{item.title}</div>
