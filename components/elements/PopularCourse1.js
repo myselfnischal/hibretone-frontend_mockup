@@ -31,7 +31,8 @@ const PopularCourse1 = () => {
             author: {
                 image: "/assets/imgs/page/online-courses/images.png",
           },  
-          type:"Marketing"
+          type:"Marketing",
+          type1:"Product"
       }, {
         image: "assets/imgs/page/online-courses/img2.jpg",
         title: "Product Ideation and Brainstorming",
@@ -41,7 +42,8 @@ const PopularCourse1 = () => {
         author: {
             image: "/assets/imgs/page/online-courses/images.png",
       },
-      type:"People"
+      type:"People",
+      type1:"Marketing"
   },
   {
     image: "assets/imgs/page/online-courses/img1.png",
@@ -52,7 +54,8 @@ const PopularCourse1 = () => {
     author: {
         image: "/assets/imgs/page/online-courses/images.png",
   },
-  type:"Product"
+  type:"Product",
+  type1:"Marketing"
 },
   
     ];
@@ -91,9 +94,11 @@ const PopularCourse1 = () => {
                                             alt="Article featured image"
                                             className="featured-image"
                                         />
-                                           <p className='image-text'>{item.type}</p>
+                                         
                                         <div className="article-category"></div>
-                                        <a href="/online-courses/search">
+                                        <a href="/online-courses">
+                                        <p className='image-text-online-course'>{item.type}</p>
+                                           <p className='image-text-online-course_next'>{item.type1}</p>
                                                     <div className="article-title">{item.title}</div>
                                             </a>
                                         <p className="article-description-online-course">{item.description}</p>
@@ -105,11 +110,7 @@ const PopularCourse1 = () => {
                                                     alt={item.author.name}
                                                     className="author-image-online-course"
                                                 />
-                                                {/* <div className="author-details">
-                                                    <div className="author-name-online-course">{item.author.name}</div>
-                                                 
-                                                
-                                                </div> */}
+                                           
                                             </div>
                                             <div className="read-time-online-course">{item.readTime}</div>
                                         </div>
